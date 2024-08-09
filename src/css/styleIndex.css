@@ -1,0 +1,80 @@
+body{
+    background-image: url(../img/images.jpg);
+    background-size: 100%;
+    
+}
+
+
+
+
+.caja{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    justify-content: center;
+    text-align: center;
+    border-color: black;    
+}
+
+.titulo{
+    text-align: center;
+    color: rgb(67, 94, 17);
+    font-size: 70px;
+}
+
+.marcador{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+h4{
+    color: white
+}
+
+.borde{
+    border-style: solid;
+    border-color: chartreuse;
+    text-align: center;
+    align-content: center;
+    font-size: xxx-large;
+     background-color: rgb(116, 77, 33);
+}
+
+
+#texto{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: xx-large;
+}
+
+.botones{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+
+
+#btnNewPart{
+    background-color: chocolate;
+    color: chartreuse;
+ }
+
+#btnReiniciar{
+    background-color: chocolate;
+    color: chartreuse;
+ }
+
+
+ #salida{
+    background-color: chocolate;
+    color: chartreuse;
+    height: 30px;
+    width: 10%;
+ }
+ 
+
